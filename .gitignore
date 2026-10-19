@@ -1,0 +1,13 @@
+# Local generation dependencies and source files
+.git-deploy/
+future-space/.deps/
+future-space/*.blend
+future-space/*.blend1
+future-space/*.py
+future-space/*.md
+
+# Unused render outputs
+future-space/renders/camera-preview/frames/
+future-space/renders/camera-preview/checkpoints/*
+!future-space/renders/camera-preview/checkpoints/frame_0001.png
+future-space/renders/plan-elevation-study/
